@@ -39,6 +39,14 @@ html, body {
   overflow: hidden;
 }
 
+#app.map-view-active {
+  max-width: none;
+  width: 100%;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+}
+
 @media (max-width: 480px) {
   #app {
     max-width: 100%;

@@ -1,23 +1,23 @@
 [
   {
     "id": "stage1",
-    "name": "Ponton",
-    "image": "assets/Content/proton.svg",
+    "name": "Pronton",
+    "image": "assets/Content/proton.png",
     "marker": "assets/FloorPlan/marker_stage1_ponton.svg",
-    "x": 620,
-    "y": 480,
+    "x": 497,
+    "y": 849,
     "description": {
-      "nl": "Locatie 1: Ponton — het hoofdpodium voor de hoofdacts.",
-      "en": "Location 1: Ponton — the main stage for headliner acts."
+      "nl": "Locatie 1: Pronton — het hoofdpodium voor de hoofdacts.",
+      "en": "Location 1: Pronton — the main stage for headliner acts."
     }
   },
   {
     "id": "stage2",
     "name": "The Lake",
-    "image": "assets/Content/lake.svg",
+    "image": "assets/Content/lake.png",
     "marker": "assets/FloorPlan/marker_stage2_the_lake.svg",
-    "x": 1280,
-    "y": 280,
+    "x": 1257,
+    "y": 615,
     "description": {
       "nl": "Locatie 2: The Lake — podium voor opkomend talent.",
       "en": "Location 2: The Lake — stage for emerging talent."
@@ -26,10 +26,10 @@
   {
     "id": "stage3",
     "name": "The Club",
-    "image": "assets/Content/club.svg",
+    "image": "assets/Content/club.png",
     "marker": "assets/FloorPlan/marker_stage3_the_club.svg",
-    "x": 1820,
-    "y": 680,
+    "x": 1614,
+    "y": 529,
     "description": {
       "nl": "Locatie 3: The Club — theater en stand-up comedy.",
       "en": "Location 3: The Club — theatre and stand-up comedy."
@@ -38,10 +38,10 @@
   {
     "id": "stage4",
     "name": "Hangar",
-    "image": "assets/Content/hangar.svg",
+    "image": "assets/Content/hangar.png",
     "marker": "assets/FloorPlan/marker_stage4_hangar.svg",
-    "x": 950,
-    "y": 920,
+    "x": 2102,
+    "y": 231,
     "description": {
       "nl": "Locatie 4: Hangar — non-stop house/techno/dance.",
       "en": "Location 4: Hangar — non-stop house/techno/dance."

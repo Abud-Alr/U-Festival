@@ -2,7 +2,7 @@
   {
     "id": "armin",
     "name": "Armin van Buuren",
-    "image": "assets/Acts/armin.svg",
+    "image": "assets/Acts/Armin.png",
     "video": "https://www.youtube.com/embed/TxvpctgU_s8",
     "tagline": { "nl": "Trance icoon", "en": "Trance icon" },
     "description": {
@@ -13,7 +13,7 @@
   {
     "id": "martin",
     "name": "Martin Garrix",
-    "image": "assets/Acts/martin.svg",
+    "image": "assets/Acts/Martin.png",
     "video": "https://www.youtube.com/embed/Zv1QV6lrc_Y",
     "tagline": { "nl": "EDM superster", "en": "EDM superstar" },
     "description": {
@@ -24,7 +24,7 @@
   {
     "id": "kensington",
     "name": "Kensington",
-    "image": "assets/Acts/kensington.svg",
+    "image": "assets/Acts/Kensington.png",
     "video": "https://www.youtube.com/embed/IH77eOyV95o",
     "tagline": { "nl": "Indie rock anthems", "en": "Indie rock anthems" },
     "description": {
@@ -35,7 +35,7 @@
   {
     "id": "within_temptation",
     "name": "Within Temptation",
-    "image": "assets/Acts/within_temptation.svg",
+    "image": "assets/Acts/Within_Temptation.png",
     "video": "https://www.youtube.com/embed/iQVei5C2N4E",
     "tagline": { "nl": "Symfonische metal pioniers", "en": "Symphonic metal pioneers" },
     "description": {
@@ -46,7 +46,7 @@
   {
     "id": "de_staat",
     "name": "De Staat",
-    "image": "assets/Acts/de_staat.svg",
+    "image": "assets/Acts/De_Staat.png",
     "video": "https://www.youtube.com/embed/0ttGgIQpAUc",
     "tagline": { "nl": "Experimentele rock innovators", "en": "Experimental rock innovators" },
     "description": {
@@ -57,7 +57,7 @@
   {
     "id": "chefspecial",
     "name": "Chef'Special",
-    "image": "assets/Acts/chefspecial.svg",
+    "image": "assets/Acts/Chef’Special.png",
     "video": "https://www.youtube.com/embed/l3jRIr44lss",
     "tagline": { "nl": "Genre-blending funk-pop", "en": "Genre-blending funk-pop" },
     "description": {
@@ -68,7 +68,7 @@
   {
     "id": "navarone",
     "name": "Navarone",
-    "image": "assets/Acts/navarone.svg",
+    "image": "assets/Acts/Navarone.png",
     "video": "https://www.youtube.com/embed/EvLpaCSnc4k",
     "tagline": { "nl": "Hard-hitting rock four-piece", "en": "Hard-hitting rock four-piece" },
     "description": {
@@ -79,7 +79,7 @@
   {
     "id": "dotan",
     "name": "Dotan",
-    "image": "assets/Acts/dotan.svg",
+    "image": "assets/Acts/Dotan.png",
     "video": "https://www.youtube.com/embed/FZEuqzW16Nw",
     "tagline": { "nl": "Folk-pop singer-songwriter", "en": "Folk-pop singer-songwriter" },
     "description": {
@@ -90,7 +90,7 @@
   {
     "id": "eefje",
     "name": "Eefje de Visser",
-    "image": "assets/Acts/eefje.svg",
+    "image": "assets/Acts/Eefje.png",
     "video": "https://www.youtube.com/embed/6IlLJNmLDMg",
     "tagline": { "nl": "Atmospheric indie-pop", "en": "Atmospheric indie-pop" },
     "description": {
@@ -101,7 +101,7 @@
   {
     "id": "froukje",
     "name": "Froukje",
-    "image": "assets/Acts/froukje.svg",
+    "image": "assets/Acts/Froukje.png",
     "video": "https://www.youtube.com/embed/g4PlReX9e-E",
     "tagline": { "nl": "Candid pop songwriter", "en": "Candid pop songwriter" },
     "description": {
@@ -112,7 +112,7 @@
   {
     "id": "spinvis",
     "name": "Spinvis",
-    "image": "assets/Acts/spinvis.svg",
+    "image": "assets/Acts/Spinvis.png",
     "video": "https://www.youtube.com/embed/F3ZTrGWSLf4",
     "tagline": { "nl": "Poëtische lo-fi surrealist", "en": "Poetic lo-fi surrealist in pop form" },
     "description": {

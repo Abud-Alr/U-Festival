@@ -1,12 +1,12 @@
 [
-  { "id": "entrance", "type": "facility", "marker": "assets/FloorPlan/marker_entrance_exit.svg", "x": 1050, "y": 120, "name": { "nl": "Entree / Uitgang", "en": "Entrance / Exit" } },
-  { "id": "bar1", "type": "facility", "marker": "assets/FloorPlan/marker_bar.svg", "x": 720, "y": 420, "name": { "nl": "Hoofdbar", "en": "Main Bar" } },
-  { "id": "bar2", "type": "facility", "marker": "assets/FloorPlan/marker_bar.svg", "x": 1350, "y": 350, "name": { "nl": "Strandbar", "en": "Beach Bar" } },
-  { "id": "food", "type": "facility", "marker": "assets/FloorPlan/marker_food.svg", "x": 1180, "y": 520, "name": { "nl": "Foodcourt", "en": "Food Court" } },
-  { "id": "first_aid", "type": "facility", "marker": "assets/FloorPlan/marker_first_aid.svg", "x": 900, "y": 200, "name": { "nl": "EHBO Post", "en": "First Aid Post" } },
-  { "id": "lockers", "type": "facility", "marker": "assets/FloorPlan/marker_locker.svg", "x": 980, "y": 180, "name": { "nl": "Kluisjes", "en": "Lockers" } },
-  { "id": "ice_cream", "type": "facility", "marker": "assets/FloorPlan/marker_ice_cream.svg", "x": 1400, "y": 400, "name": { "nl": "Ijscoman", "en": "Ice Cream Vendor" } },
-  { "id": "merch", "type": "facility", "marker": "assets/FloorPlan/marker_merchandise.svg", "x": 850, "y": 320, "name": { "nl": "Merchandise", "en": "Merchandise" } },
-  { "id": "toilet1", "type": "facility", "marker": "assets/FloorPlan/marker_toilet.svg", "x": 1150, "y": 160, "name": { "nl": "Toiletten Noord", "en": "Toilets North" } },
-  { "id": "toilet2", "type": "facility", "marker": "assets/FloorPlan/marker_toilet.svg", "x": 1750, "y": 600, "name": { "nl": "Toiletten Oost", "en": "Toilets East" } }
+  { "id": "entrance", "type": "facility", "marker": "assets/FloorPlan/marker_entrance_exit.svg", "x": 707, "y": 1105, "name": { "nl": "Entree / Uitgang", "en": "Entrance / Exit" } },
+  { "id": "bar1", "type": "facility", "marker": "assets/FloorPlan/marker_bar.svg", "x": 821, "y": 596, "name": { "nl": "Hoofdbar", "en": "Main Bar" } },
+  { "id": "bar2", "type": "facility", "marker": "assets/FloorPlan/marker_bar.svg", "x": 1196, "y": 551, "name": { "nl": "Strandbar", "en": "Beach Bar" } },
+  { "id": "food", "type": "facility", "marker": "assets/FloorPlan/marker_food.svg", "x": 1458, "y": 448, "name": { "nl": "Foodcourt", "en": "Food Court" } },
+  { "id": "first_aid", "type": "facility", "marker": "assets/FloorPlan/marker_first_aid.svg", "x": 559, "y": 1121, "name": { "nl": "EHBO Post", "en": "First Aid Post" } },
+  { "id": "lockers", "type": "facility", "marker": "assets/FloorPlan/marker_locker.svg", "x": 406, "y": 1064, "name": { "nl": "Kluisjes", "en": "Lockers" } },
+  { "id": "ice_cream", "type": "facility", "marker": "assets/FloorPlan/marker_ice_cream.svg", "x": 739, "y": 540, "name": { "nl": "Ijscoman", "en": "Ice Cream Vendor" } },
+  { "id": "merch", "type": "facility", "marker": "assets/FloorPlan/marker_merchandise.svg", "x": 913, "y": 567, "name": { "nl": "Merchandise", "en": "Merchandise" } },
+  { "id": "toilet1", "type": "facility", "marker": "assets/FloorPlan/marker_toilet.svg", "x": 181, "y": 1063, "name": { "nl": "Toiletten Noord", "en": "Toilets North" } },
+  { "id": "toilet2", "type": "facility", "marker": "assets/FloorPlan/marker_toilet.svg", "x": 1936, "y": 243, "name": { "nl": "Toiletten Oost", "en": "Toilets East" } }
 ]
