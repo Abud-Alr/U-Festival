@@ -1,0 +1,41 @@
+[
+  {
+    "id": "welcome",
+    "type": "info",
+    "date": "2026-08-08",
+    "title": {
+      "nl": "Welkom bij ❤️U Festival!",
+      "en": "Welcome to ❤️U Festival!"
+    },
+    "content": {
+      "nl": "De officiële festival-app is live! Installeer de app op je startscherm, bekijk het programma en markeer je favoriete acts voor herinneringen.",
+      "en": "The official festival app is live! Install the app on your home screen, browse the schedule and mark your favourite acts for reminders."
+    }
+  },
+  {
+    "id": "shuttle",
+    "type": "warning",
+    "date": "2026-08-15",
+    "title": {
+      "nl": "Gratis shuttlebus actief",
+      "en": "Free shuttle bus in service"
+    },
+    "content": {
+      "nl": "Vanaf Utrecht Centraal (Mineurslaan) rijdt de shuttlebus tussen 12:00–19:00 naar het terrein en vanaf 21:00 terug naar het station.",
+      "en": "From Utrecht Central (Mineurslaan) the shuttle runs 12:00–19:00 to the site and from 21:00 back to the station."
+    }
+  },
+  {
+    "id": "weather",
+    "type": "info",
+    "date": "2026-08-15",
+    "title": {
+      "nl": "Zonnig weer verwacht",
+      "en": "Sunny weather expected"
+    },
+    "content": {
+      "nl": "Neem zonnebrandcrème en een herbruikbare beker mee. Gratis waterpunten bij alle toiletblokken.",
+      "en": "Bring sunscreen and a reusable cup. Free water refill points at all toilet blocks."
+    }
+  }
+]

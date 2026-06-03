@@ -1,0 +1,50 @@
+[
+  {
+    "id": "stage1",
+    "name": "Ponton",
+    "image": "assets/Content/proton.svg",
+    "marker": "assets/FloorPlan/marker_stage1_ponton.svg",
+    "x": 620,
+    "y": 480,
+    "description": {
+      "nl": "Locatie 1: Ponton — het hoofdpodium voor de hoofdacts.",
+      "en": "Location 1: Ponton — the main stage for headliner acts."
+    }
+  },
+  {
+    "id": "stage2",
+    "name": "The Lake",
+    "image": "assets/Content/lake.svg",
+    "marker": "assets/FloorPlan/marker_stage2_the_lake.svg",
+    "x": 1280,
+    "y": 280,
+    "description": {
+      "nl": "Locatie 2: The Lake — podium voor opkomend talent.",
+      "en": "Location 2: The Lake — stage for emerging talent."
+    }
+  },
+  {
+    "id": "stage3",
+    "name": "The Club",
+    "image": "assets/Content/club.svg",
+    "marker": "assets/FloorPlan/marker_stage3_the_club.svg",
+    "x": 1820,
+    "y": 680,
+    "description": {
+      "nl": "Locatie 3: The Club — theater en stand-up comedy.",
+      "en": "Location 3: The Club — theatre and stand-up comedy."
+    }
+  },
+  {
+    "id": "stage4",
+    "name": "Hangar",
+    "image": "assets/Content/hangar.svg",
+    "marker": "assets/FloorPlan/marker_stage4_hangar.svg",
+    "x": 950,
+    "y": 920,
+    "description": {
+      "nl": "Locatie 4: Hangar — non-stop house/techno/dance.",
+      "en": "Location 4: Hangar — non-stop house/techno/dance."
+    }
+  }
+]

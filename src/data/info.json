@@ -1,0 +1,50 @@
+[
+  {
+    "id": "general",
+    "title": { "nl": "Algemeen & Contact", "en": "General & Contact" },
+    "content": {
+      "nl": "Het ❤️U Festival is voor (nieuwe) studenten in de regio Utrecht en is een aanvulling op de Utrechtse Introductie Tijd (UIT). Het festival is toegankelijk voor studenten binnen de regio Utrecht. Tickets (op naam) worden uitgereikt via de onderwijsinstelling. Er is GEEN camping op het terrein.<br/><br/>❤️U biedt een diverse programmering met aandacht voor regionaal en nationaal talent op het gebied van muziek, toneel en wetenschap. Studentenclubs kunnen zich presenteren aan festivalbezoekers.",
+      "en": "The ❤️U Festival is for (new) students in the Utrecht region and complements the Utrecht Introduction Time (UIT). The festival is accessible to students in the Utrecht region. Tickets (personalised) are distributed through educational institutions. There is NO camping on site.<br/><br/>❤️U offers diverse programming with a focus on regional and national talent in music, theatre and science. Student clubs can present themselves to festival visitors."
+    }
+  },
+  {
+    "id": "address",
+    "title": { "nl": "Adres & Openingstijden", "en": "Address & Opening Hours" },
+    "content": {
+      "nl": "<b>Locatie:</b> Strijkviertel, Utrecht (Grasweide Strijkviertel)<br/><b>Navigatieadres:</b> Strijkviertelweg, Utrecht<br/><br/><b>Zaterdag 15 augustus 2026</b> — 12:00 tot 23:00 uur<br/><b>Zondag 16 augustus 2026</b> — 12:00 tot 23:00 uur",
+      "en": "<b>Location:</b> Strijkviertel, Utrecht (Grasweide Strijkviertel)<br/><b>Navigation address:</b> Strijkviertelweg, Utrecht<br/><br/><b>Saturday 15 August 2026</b> — 12:00 to 23:00<br/><b>Sunday 16 August 2026</b> — 12:00 to 23:00"
+    }
+  },
+  {
+    "id": "accessibility",
+    "title": { "nl": "Bereikbaarheid", "en": "Getting There" },
+    "content": {
+      "nl": "<b>🚲 Fiets</b><br/>Er is een grote gratis fietsenstalling aanwezig waar je jouw fiets de gehele dag kunt stallen.<br/><br/><b>🚗 Auto</b><br/>Je kunt een parkingticket aanschaffen. Parkeren kan op P+R Papendorp — volg de borden 'P online ticket'. Geen ticket vooraf? Koop bij de parkeerwachter op locatie (PIN ONLY). Let op: VOL=VOL.<br/><br/><b>🚇 OV</b><br/>Plan je reis via <a href=\"https://9292.nl\" target=\"_blank\" rel=\"noopener\">9292.nl</a>.<br/><br/><b>🚌 Shuttlebus</b><br/>Vanaf Utrecht Centraal (Mineurslaan) rijdt een gratis shuttlebus richting het terrein. Volg witte bordjes met zwarte pijlen én '❤️U Festival'. Richting festival: 12:00–19:00. Terug naar station: vanaf 21:00.<br/><br/><b>🚕 Taxi + Kiss & Ride</b><br/>Navigeer naar Strijkviertel, De Meern (Utrecht). Volg de borden \"Kiss & Ride ❤️U Festival\".",
+      "en": "<b>🚲 Bicycle</b><br/>A large free bicycle parking area is available where you can store your bike all day.<br/><br/><b>🚗 Car</b><br/>Purchase a parking ticket. Park at P+R Papendorp — follow the 'P online ticket' signs. No ticket in advance? Buy one from the parking attendant on site (PIN ONLY). Note: FULL=FULL.<br/><br/><b>🚇 Public transport</b><br/>Plan your trip via <a href=\"https://9292.nl\" target=\"_blank\" rel=\"noopener\">9292.nl</a>.<br/><br/><b>🚌 Shuttle bus</b><br/>From Utrecht Central (Mineurslaan) a free shuttle runs to the site. Follow white signs with black arrows and '❤️U Festival'. To festival: 12:00–19:00. Back to station: from 21:00.<br/><br/><b>🚕 Taxi + Kiss & Ride</b><br/>Navigate to Strijkviertel, De Meern (Utrecht). Follow the \"Kiss & Ride ❤️U Festival\" signs."
+    }
+  },
+  {
+    "id": "lockers",
+    "title": { "nl": "Kluisjes (Lockers)", "en": "Lockers" },
+    "content": {
+      "nl": "Op het festivalterrein zijn kluisjes aanwezig waar je je spullen veilig kunt opbergen! Hier passen 3 à 4 jassen in. Je kunt je kluisje gedurende de hele dag openen en sluiten zo vaak je wilt. Het is niet mogelijk om online een kluisje te reserveren.",
+      "en": "Lockers are available on the festival grounds where you can safely store your belongings! They fit 3 to 4 jackets. You can open and close your locker as often as you like throughout the day. It is not possible to reserve a locker online."
+    }
+  },
+  {
+    "id": "faq",
+    "title": { "nl": "Veelgestelde Vragen (FAQ)", "en": "Frequently Asked Questions (FAQ)" },
+    "content": {
+      "nl": "<b>Ik gebruik medicatie. Wat nu?</b><br/>Het is toegestaan om medicijnen mee te nemen in een dosis die je maximaal nodig hebt op 1 dag. Een doktersverklaring/medicatiepaspoort is noodzakelijk. De beveiliging beoordeelt jouw documentatie. EHBO kan medicijnen in bewaring nemen die gevaarlijk zijn i.c.m. alcohol.<br/><br/><b>Mag ik het festivalterrein tussentijds verlaten?</b><br/>Nee, helaas is dat niet mogelijk. Om de veiligheid van alle bezoekers te waarborgen kan het terrein niet tussentijds verlaten worden. Er zijn genoeg loungeplekken, foodstands & barren.<br/><br/><b>Zijn er lockers?</b><br/>Ja! Op het terrein kun je medium & grote lockers huren.",
+      "en": "<b>I use medication. What now?</b><br/>You may bring medication in the maximum dose needed for one day. A doctor's certificate/medication passport is required. Security will review your documentation. First aid may hold medication that is dangerous in combination with alcohol.<br/><br/><b>Can I leave the festival site temporarily?</b><br/>No, unfortunately this is not possible. To ensure the safety of all visitors, the site cannot be left temporarily. There are plenty of lounge areas, food stands and bars.<br/><br/><b>Are there lockers?</b><br/>Yes! Medium and large lockers can be rented on site."
+    }
+  },
+  {
+    "id": "glu",
+    "title": { "nl": "Golden-GLU", "en": "Golden-GLU" },
+    "content": {
+      "nl": "Studenten van het GLU hebben tijdens het festival speciale privileges en zijn herkenbaar aan een gouden armbandje. Met dit gouden armbandje kunnen ze tijdens het festival gebruik maken van de gouden toiletten en met goud gemarkeerde bestelpunten aan de bars zonder in een rij te hoeven staan.",
+      "en": "GLU students have special privileges during the festival and are recognisable by a golden wristband. With this golden wristband they can use the golden toilets and gold-marked ordering points at the bars without having to queue."
+    }
+  }
+]

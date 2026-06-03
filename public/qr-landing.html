@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#F03228">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" href="/icon-192.png">
+  <title>❤️U Festival — Installeer de App</title>
+  <style>
+    :root {
+      --primary: #F03228;
+      --secondary: #247BA0;
+      --saffron: #E3B505;
+      --bg: #F8F9FA;
+      --card: #FFFFFF;
+      --text: #1A1A1A;
+      --muted: #666666;
+      --border: #E2E8F0;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Sansation', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      max-width: 420px;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 32px 24px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+    }
+    .logo { width: 72px; height: 72px; margin: 0 auto 16px; border-radius: 16px; }
+    h1 { font-size: 1.6rem; font-weight: 700; color: var(--secondary); margin-bottom: 8px; }
+    .subtitle { font-size: 0.9rem; color: var(--muted); line-height: 1.5; margin-bottom: 24px; }
+    .highlight {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: white;
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 24px;
+      text-align: left;
+    }
+    .highlight h2 { color: white; font-size: 1.1rem; margin-bottom: 8px; }
+    .highlight p { font-size: 0.85rem; opacity: 0.95; line-height: 1.5; }
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      background: var(--primary);
+      color: white;
+      text-decoration: none;
+      font-weight: 300;
+      font-style: italic;
+      border-radius: 12px;
+      margin-bottom: 12px;
+      border: none;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .btn-secondary { background: var(--secondary); }
+    .instructions { text-align: left; border-top: 1px solid var(--border); padding-top: 20px; margin-top: 8px; }
+    .instructions h3 { font-size: 0.95rem; color: var(--secondary); margin-bottom: 12px; }
+    .step { display: flex; gap: 12px; margin-bottom: 10px; font-size: 0.82rem; color: var(--muted); align-items: flex-start; }
+    .step-num {
+      width: 22px; height: 22px; border-radius: 50%;
+      background: var(--primary); color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.75rem; font-weight: 700; flex-shrink: 0;
+    }
+    .lang-toggle {
+      position: absolute; top: 16px; right: 16px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 6px 12px; font-size: 0.8rem; cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <button class="lang-toggle" id="lang-toggle" onclick="toggleLang()">EN</button>
+  <div class="container">
+    <img src="/icon-192.png" alt="❤️U" class="logo">
+    <h1 id="title">❤️U Festival App</h1>
+    <p class="subtitle" id="subtitle">Scan de QR-code en installeer de officiële festivalgids op je telefoon.</p>
+
+    <div class="highlight">
+      <h2 id="highlight-title">Installeer als App</h2>
+      <p id="highlight-desc">Blokkenschema, interactieve kaart met GPS, favorieten met meldingen (15, 10 & 5 min van tevoren) — ook offline beschikbaar.</p>
+    </div>
+
+    <a href="/" class="btn" id="open-btn">Open App in Browser</a>
+    <a href="/" class="btn btn-secondary" id="install-fallback">Direct naar de App →</a>
+
+    <div class="instructions">
+      <h3 id="instr-title">Installatie handleiding</h3>
+      <p style="font-size:0.8rem;font-weight:700;color:var(--text);margin-bottom:8px;" id="android-label">🤖 Android (Chrome)</p>
+      <div class="step"><div class="step-num">1</div><div id="android-1">Tik op ⋮ rechtsboven in Chrome.</div></div>
+      <div class="step"><div class="step-num">2</div><div id="android-2">Kies <strong>App installeren</strong> of <strong>Toevoegen aan startscherm</strong>.</div></div>
+      <p style="font-size:0.8rem;font-weight:700;color:var(--text);margin:12px 0 8px;" id="ios-label">🍏 iPhone (Safari)</p>
+      <div class="step"><div class="step-num">1</div><div id="ios-1">Tik op de Deelknop onderin Safari.</div></div>
+      <div class="step"><div class="step-num">2</div><div id="ios-2">Tik op <strong>Zet op beginscherm</strong>.</div></div>
+    </div>
+  </div>
+  <script>
+    const t = {
+      nl: {
+        toggle: 'EN', title: '❤️U Festival App',
+        subtitle: 'Scan de QR-code en installeer de officiële festivalgids op je telefoon.',
+        highlightTitle: 'Installeer als App',
+        highlightDesc: 'Blokkenschema, interactieve kaart met GPS, favorieten met meldingen (15, 10 & 5 min van tevoren) — ook offline beschikbaar.',
+        openBtn: 'Open App in Browser', fallback: 'Direct naar de App →',
+        instrTitle: 'Installatie handleiding',
+        android1: 'Tik op ⋮ rechtsboven in Chrome.', android2: 'Kies <strong>App installeren</strong> of <strong>Toevoegen aan startscherm</strong>.',
+        ios1: 'Tik op de Deelknop onderin Safari.', ios2: 'Tik op <strong>Zet op beginscherm</strong>.'
+      },
+      en: {
+        toggle: 'NL', title: '❤️U Festival App',
+        subtitle: 'Scan the QR code and install the official festival guide on your phone.',
+        highlightTitle: 'Install as App',
+        highlightDesc: 'Block schedule, interactive GPS map, favourites with reminders (15, 10 & 5 min before) — works offline too.',
+        openBtn: 'Open App in Browser', fallback: 'Go to App →',
+        instrTitle: 'Installation guide',
+        android1: 'Tap ⋮ top-right in Chrome.', android2: 'Choose <strong>Install app</strong> or <strong>Add to Home screen</strong>.',
+        ios1: 'Tap the Share button at the bottom of Safari.', ios2: 'Tap <strong>Add to Home Screen</strong>.'
+      }
+    };
+    let lang = 'nl';
+    function applyLang() {
+      const s = t[lang];
+      document.getElementById('lang-toggle').textContent = s.toggle;
+      document.getElementById('title').textContent = s.title;
+      document.getElementById('subtitle').textContent = s.subtitle;
+      document.getElementById('highlight-title').textContent = s.highlightTitle;
+      document.getElementById('highlight-desc').textContent = s.highlightDesc;
+      document.getElementById('open-btn').textContent = s.openBtn;
+      document.getElementById('install-fallback').textContent = s.fallback;
+      document.getElementById('instr-title').textContent = s.instrTitle;
+      document.getElementById('android-1').innerHTML = s.android1;
+      document.getElementById('android-2').innerHTML = s.android2;
+      document.getElementById('ios-1').textContent = s.ios1;
+      document.getElementById('ios-2').innerHTML = s.ios2;
+    }
+    function toggleLang() { lang = lang === 'nl' ? 'en' : 'nl'; applyLang(); }
+    applyLang();
+  </script>
+</body>
+</html>

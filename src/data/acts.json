@@ -1,0 +1,123 @@
+[
+  {
+    "id": "armin",
+    "name": "Armin van Buuren",
+    "image": "assets/Acts/armin.svg",
+    "video": "https://www.youtube.com/embed/TxvpctgU_s8",
+    "tagline": { "nl": "Trance icoon", "en": "Trance icon" },
+    "description": {
+      "nl": "Vijfvoudig 'World's No. 1 DJ' en trance icoon. Armin levert euforische, energieke sets die festivals van Tomorrowland tot Ultra headlined hebben. Zijn opbeurende melodieën houden menigten urenlang dansend.",
+      "en": "Five-time \"World's No. 1 DJ\" and trance icon, Armin delivers euphoric, high-energy sets that have headlined festivals from Tomorrowland to Ultra. His uplifting melodies and impeccable mixing keep crowds dancing for hours."
+    }
+  },
+  {
+    "id": "martin",
+    "name": "Martin Garrix",
+    "image": "assets/Acts/martin.svg",
+    "video": "https://www.youtube.com/embed/Zv1QV6lrc_Y",
+    "tagline": { "nl": "EDM superster", "en": "EDM superstar" },
+    "description": {
+      "nl": "Doorbrak als tiener met \"Animals\" en werd een van de grootste namen in EDM. Zijn anthemische big-room tracks en stadiongrote drops maken hem een festival favoriet door heel Europa.",
+      "en": "Broke through as a teenager with \"Animals,\" Martin Garrix has become one of the biggest names in EDM. His anthemic big-room tracks and stadium-sized drops make him a festival favorite across Europe."
+    }
+  },
+  {
+    "id": "kensington",
+    "name": "Kensington",
+    "image": "assets/Acts/kensington.svg",
+    "video": "https://www.youtube.com/embed/IH77eOyV95o",
+    "tagline": { "nl": "Indie rock anthems", "en": "Indie rock anthems" },
+    "description": {
+      "nl": "Rotterdamse indie rock quintet bekend om soaring choruses en drijvende gitaarriffs. Hits als \"Streets\" en \"Riddles\" tonen hun talent voor arena-ready hooks en emotionele teksten.",
+      "en": "Rotterdam-born indie rock quintet known for soaring choruses and driving guitar riffs. Hits like \"Streets\" and \"Riddles\" showcase their knack for arena-ready hooks and emotionally charged lyricism."
+    }
+  },
+  {
+    "id": "within_temptation",
+    "name": "Within Temptation",
+    "image": "assets/Acts/within_temptation.svg",
+    "video": "https://www.youtube.com/embed/iQVei5C2N4E",
+    "tagline": { "nl": "Symfonische metal pioniers", "en": "Symphonic metal pioneers" },
+    "description": {
+      "nl": "Symfonische metal pioniers onder leiding van Sharon den Adel. Hun cinematische soundscapes en operatische vocalen vertalen zich in dramatische, visueel verbluffende festivaloptredens.",
+      "en": "Symphonic metal pioneers fronted by Sharon den Adel. Their cinematic soundscapes and operatic vocals (think \"Ice Queen,\" \"Mother Earth\") translate into dramatic, visually stunning festival performances."
+    }
+  },
+  {
+    "id": "de_staat",
+    "name": "De Staat",
+    "image": "assets/Acts/de_staat.svg",
+    "video": "https://www.youtube.com/embed/0ttGgIQpAUc",
+    "tagline": { "nl": "Experimentele rock innovators", "en": "Experimental rock innovators" },
+    "description": {
+      "nl": "Experimentele rock outfit uit Nijmegen, met funky grooves, hoekige gitaarwerk en theatrale podiumpresentatie. Tracks als \"Witch Doctor\" en \"Down Town\" benadrukken hun genre-bending energie.",
+      "en": "Experimental rock outfit from Nijmegen, blending funky grooves with angular guitar work and theatrical stagecraft. Tracks like \"Witch Doctor\" and \"Down Town\" highlight their genre-bending approach and infectious energy."
+    }
+  },
+  {
+    "id": "chefspecial",
+    "name": "Chef'Special",
+    "image": "assets/Acts/chefspecial.svg",
+    "video": "https://www.youtube.com/embed/l3jRIr44lss",
+    "tagline": { "nl": "Genre-blending funk-pop", "en": "Genre-blending funk-pop" },
+    "description": {
+      "nl": "Vierkoppige band uit Haarlem die funk, pop, rock en hip-hop mixt. Hun upbeat, genre-vloeiende sound op nummers als \"Amigo\" maakt voor vrolijke, dansvloer-vriendelijke liveshows.",
+      "en": "A four-piece from Haarlem mixing funk, pop, rock and hip-hop. Their upbeat, genre-fluid sound on songs like \"Amigo\" and \"In Your Arms\" makes for joyous, dance-floor-friendly live shows."
+    }
+  },
+  {
+    "id": "navarone",
+    "name": "Navarone",
+    "image": "assets/Acts/navarone.svg",
+    "video": "https://www.youtube.com/embed/EvLpaCSnc4k",
+    "tagline": { "nl": "Hard-hitting rock four-piece", "en": "Hard-hitting rock four-piece" },
+    "description": {
+      "nl": "Utrechtse hard-hitting rock four-piece met riff-gedreven anthems en dynamische vocalen. Met een live reputatie voor rauwe intensiteit zijn ze perfect voor late-night main stages.",
+      "en": "Utrecht's hard-hitting rock four-piece, delivering riff-driven anthems and dynamic vocals. With a live reputation for raw intensity, they're tailor-made for late-night main stages."
+    }
+  },
+  {
+    "id": "dotan",
+    "name": "Dotan",
+    "image": "assets/Acts/dotan.svg",
+    "video": "https://www.youtube.com/embed/FZEuqzW16Nw",
+    "tagline": { "nl": "Folk-pop singer-songwriter", "en": "Folk-pop singer-songwriter" },
+    "description": {
+      "nl": "Folk-pop singer-songwriter wiens intieme stem en akoestische arrangementen (met name op \"Home\") hem platinum verkopen en uitverkochte shows opleverden. Zijn storytelling raakt diep.",
+      "en": "Folk-pop singer-songwriter whose intimate voice and acoustic arrangements (notably on \"Home\") have earned him platinum sales and sell-out shows. His heartfelt storytelling connects deeply on festival acoustic stages."
+    }
+  },
+  {
+    "id": "eefje",
+    "name": "Eefje de Visser",
+    "image": "assets/Acts/eefje.svg",
+    "video": "https://www.youtube.com/embed/6IlLJNmLDMg",
+    "tagline": { "nl": "Atmospheric indie-pop", "en": "Atmospheric indie-pop" },
+    "description": {
+      "nl": "Indie-pop artiest met atmosferische, elektronisch getinte songs. Haar hypnotiserende vocalen en weelderige productie creëren een dromerige vibe perfect voor twilight festival slots.",
+      "en": "Indie-pop artist crafting atmospheric, electronic-tinged songs. Her hypnotic vocals and lush production (as heard on \"Ongeveer\") create a dreamlike vibe perfect for twilight festival slots."
+    }
+  },
+  {
+    "id": "froukje",
+    "name": "Froukje",
+    "image": "assets/Acts/froukje.svg",
+    "video": "https://www.youtube.com/embed/g4PlReX9e-E",
+    "tagline": { "nl": "Candid pop songwriter", "en": "Candid pop songwriter" },
+    "description": {
+      "nl": "Breakthrough pop singer Froukje Veenstra combineert openhartige teksten met catchy, synth-gedreven hooks. Sinds haar debuut in 2021 is ze een stem van haar generatie.",
+      "en": "Breakthrough pop singer Froukje Veenstra combines candid lyrics with catchy, synth-driven hooks. Since her 2021 debut, she's become a voice of her generation—ideal for mid-day festival stages."
+    }
+  },
+  {
+    "id": "spinvis",
+    "name": "Spinvis",
+    "image": "assets/Acts/spinvis.svg",
+    "video": "https://www.youtube.com/embed/F3ZTrGWSLf4",
+    "tagline": { "nl": "Poëtische lo-fi surrealist", "en": "Poetic lo-fi surrealist in pop form" },
+    "description": {
+      "nl": "Erik de Jong performt als Spinvis, met poëtische, collage-achtige songs die spoken-word, lo-fi electronics en weemoedige pop combineren. Zijn liveshows maken alledaagse observaties tot gedeelde, dromerige ervaringen.",
+      "en": "Erik de Jong performs under the moniker Spinvis, crafting poetic, collage-like songs that blend spoken-word snippets, lo-fi electronics and wistful pop. Since his debut album in 2002—recorded in his attic—he's become a fixture of Dutch indie, renowned for narratives that feel both intimate and surreal. His live shows turn everyday observations into shared, dreamlike experiences."
+    }
+  }
+]

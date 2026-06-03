@@ -1,0 +1,75 @@
+:root {
+  /* Colors - Light Theme */
+  --primary-color: #F03228;        /* Vermilion Red Accent */
+  --primary-color-rgb: 240, 50, 40;
+  --secondary-color: #247BA0;      /* Cerulean Blue for headings */
+  --secondary-color-rgb: 36, 123, 160;
+  --accent-saffron: #E3B505;       /* Saffron Yellow for warnings/info */
+  
+  --bg-color: #F8F9FA;
+  --bg-card: #FFFFFF;
+  --bg-nav: #FFFFFF;
+  --bg-header: #FFFFFF;
+  
+  --text-color: #1A1A1A;
+  --text-muted: #666666;
+  --text-light: #FFFFFF;
+  
+  --border-color: #E2E8F0;
+  --shadow-color: rgba(0, 0, 0, 0.08);
+  --shadow-hover: rgba(0, 0, 0, 0.15);
+  
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.3);
+  
+  /* UI Grid Schedule Colors */
+  --stage-1-color: #E91E63; /* Pink/Red for Ponton */
+  --stage-2-color: #2196F3; /* Blue for The Lake */
+  --stage-3-color: #9C27B0; /* Purple for The Club */
+  --stage-4-color: #4CAF50; /* Green for Hangar */
+  
+  /* Typography */
+  --font-family: 'Sansation', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-medium: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  /* Safe Area / Spacing */
+  --header-height: 64px;
+  --navbar-height: 72px;
+}
+
+[data-theme="dark"] {
+  /* Colors - Dark Theme */
+  --bg-color: #0E0E10;
+  --bg-card: #18181C;
+  --bg-nav: #121214;
+  --bg-header: #121214;
+  
+  --text-color: #F3F4F6;
+  --text-muted: #9CA3AF;
+  
+  --border-color: #2D2D34;
+  --shadow-color: rgba(0, 0, 0, 0.3);
+  --shadow-hover: rgba(0, 0, 0, 0.45);
+  
+  --glass-bg: rgba(18, 18, 20, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.05);
+  
+  /* Brighten accent colors slightly for visibility in dark mode */
+  --secondary-color: #4DA8D4;
+  
+  --stage-1-color: #F06292;
+  --stage-2-color: #64B5F6;
+  --stage-3-color: #BA68C8;
+  --stage-4-color: #81C784;
+}

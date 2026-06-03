@@ -1,0 +1,100 @@
+[
+  {
+    "day": "saturday",
+    "stageId": "stage1",
+    "actId": "kensington",
+    "start": "17:00",
+    "end": "18:30"
+  },
+  {
+    "day": "saturday",
+    "stageId": "stage1",
+    "actId": "armin",
+    "start": "21:00",
+    "end": "23:00"
+  },
+  {
+    "day": "saturday",
+    "stageId": "stage2",
+    "actId": "eefje",
+    "start": "15:30",
+    "end": "17:00"
+  },
+  {
+    "day": "saturday",
+    "stageId": "stage2",
+    "actId": "chefspecial",
+    "start": "19:00",
+    "end": "20:30"
+  },
+  {
+    "day": "saturday",
+    "stageId": "stage3",
+    "actId": "navarone",
+    "start": "14:00",
+    "end": "15:15"
+  },
+  {
+    "day": "saturday",
+    "stageId": "stage3",
+    "actId": "de_staat",
+    "start": "17:30",
+    "end": "19:00"
+  },
+  {
+    "day": "saturday",
+    "stageId": "stage4",
+    "actId": "froukje",
+    "start": "16:00",
+    "end": "17:15"
+  },
+  {
+    "day": "saturday",
+    "stageId": "stage4",
+    "actId": "dotan",
+    "start": "19:30",
+    "end": "20:45"
+  },
+  {
+    "day": "sunday",
+    "stageId": "stage1",
+    "actId": "within_temptation",
+    "start": "18:00",
+    "end": "19:30"
+  },
+  {
+    "day": "sunday",
+    "stageId": "stage1",
+    "actId": "martin",
+    "start": "20:30",
+    "end": "22:30"
+  },
+  {
+    "day": "sunday",
+    "stageId": "stage2",
+    "actId": "spinvis",
+    "start": "16:30",
+    "end": "18:00"
+  },
+  {
+    "day": "sunday",
+    "stageId": "stage2",
+    "actId": "froukje",
+    "start": "19:00",
+    "end": "20:15"
+  },
+  {
+    "day": "sunday",
+    "stageId": "stage3",
+    "actId": "de_staat",
+    "start": "15:00",
+    "end": "16:30"
+  },
+  {
+    "day": "sunday",
+    "stageId": "stage4",
+    "actId": "dotan",
+    "start": "17:00",
+    "end": "18:30"
+  }
+]
