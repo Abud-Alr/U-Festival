@@ -53,7 +53,8 @@
     "facility_ice_cream": "Heerlijk schepijs in diverse fruitsmaken.",
     "facility_merch": "Koop officiële ❤️U festival merchandise.",
     "facility_toilet1": "Gratis toiletten en waterpunten.",
-    "facility_toilet2": "Gratis toiletten en waterpunten."
+    "facility_toilet2": "Gratis toiletten en waterpunten.",
+    "qr_btn_label": "📲 Deel de App — QR Code"
   },
   "en": {
     "nav_home": "Home",
@@ -109,6 +110,7 @@
     "facility_ice_cream": "Delicious scoop ice cream in various fruit flavours.",
     "facility_merch": "Buy official ❤️U festival merchandise.",
     "facility_toilet1": "Free toilets and water refill points.",
-    "facility_toilet2": "Free toilets and water refill points."
+    "facility_toilet2": "Free toilets and water refill points.",
+    "qr_btn_label": "📲 Share the App — QR Code"
   }
 }

@@ -233,6 +233,27 @@
   align-items: center;
 }
 
+.qr-share-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 32px;
+  padding: 16px;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  color: white;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(240, 50, 40, 0.2);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.qr-share-btn:active {
+  transform: scale(0.98);
+}
+
 
 /* --- SCHEDULE PAGE --- */
 .schedule-controls {

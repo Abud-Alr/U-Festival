@@ -59,6 +59,10 @@ export class InfoPage {
           <div class="sponsor-item">Hogeschool Utrecht (HU)</div>
           <div class="sponsor-item">Universiteit Utrecht (UU)</div>
         </div>
+
+        <a href="/qr-landing.html" target="_blank" class="qr-share-btn" id="qr-share-btn" data-i18n="qr_btn_label">
+          ${t('qr_btn_label')}
+        </a>
       </div>
     `;
 

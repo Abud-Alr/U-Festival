@@ -248,6 +248,10 @@ export class HomePage {
   }
 
   startShakeDetection() {
+    this.lastX = null;
+    this.lastY = null;
+    this.lastZ = null;
+    this.lastUpdate = 0;
     if ('DeviceMotionEvent' in window) {
       window.addEventListener('devicemotion', this.shakeBoundHandler, true);
     }
@@ -272,16 +276,40 @@ export class HomePage {
     const acceleration = event.accelerationIncludingGravity;
     if (!acceleration) return;
 
-    const curTime = Date.now();
-    if (curTime - this.lastUpdate > 100) {
-      const diffTime = curTime - this.lastUpdate;
-      this.lastUpdate = curTime;
-      const { x, y, z } = acceleration;
+    const x = acceleration.x;
+    const y = acceleration.y;
+    const z = acceleration.z;
 
-      if (this.lastX !== null) {
-        const speed = Math.abs(x + y + z - this.lastX - this.lastY - this.lastZ) / diffTime * 10000;
-        if (speed > this.shakeThreshold) this.triggerShakeDiscovery();
+    // Filter out null/undefined readings (e.g. from desktop browsers without sensors)
+    if (x === null || y === null || z === null) return;
+
+    const curTime = Date.now();
+
+    // Initialize sensor values on first event to avoid large startup delta jumps.
+    // Also re-initialize if the first event had dummy zero values (warm-up).
+    if (this.lastX === null || (this.lastX === 0 && this.lastY === 0 && this.lastZ === 0)) {
+      this.lastX = x;
+      this.lastY = y;
+      this.lastZ = z;
+      this.lastUpdate = curTime;
+      return;
+    }
+
+    const diffTime = curTime - this.lastUpdate;
+    if (diffTime > 100) {
+      this.lastUpdate = curTime;
+
+      // Calculate absolute changes on each axis individually to avoid cancellation
+      const deltaX = Math.abs(x - this.lastX);
+      const deltaY = Math.abs(y - this.lastY);
+      const deltaZ = Math.abs(z - this.lastZ);
+      const totalDelta = deltaX + deltaY + deltaZ;
+
+      // Check if the total acceleration change exceeds the shake threshold
+      if (totalDelta > this.shakeThreshold) {
+        this.triggerShakeDiscovery();
       }
+
       this.lastX = x;
       this.lastY = y;
       this.lastZ = z;

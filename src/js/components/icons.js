@@ -6,6 +6,6 @@ export const NavIcons = {
 };
 
 export const FlagIcons = {
-  nl: '<svg viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="20" fill="#21468B"/><rect y="6.67" width="30" height="6.67" fill="#FFF"/><rect y="13.33" width="30" height="6.67" fill="#AE1C28"/></svg>',
+  nl: '<svg viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="6.67" fill="#AE1C28"/><rect y="6.67" width="30" height="6.67" fill="#FFF"/><rect y="13.33" width="30" height="6.67" fill="#21468B"/></svg>',
   en: '<svg viewBox="0 0 30 20" width="22" height="15" aria-hidden="true"><rect width="30" height="20" fill="#012169"/><path d="M0 0l30 20M30 0L0 20" stroke="#FFF" stroke-width="3"/><path d="M0 0l30 20M30 0L0 20" stroke="#C8102E" stroke-width="1.5"/><rect x="12" width="6" height="20" fill="#FFF"/><rect y="7" width="30" height="6" fill="#FFF"/><rect x="13" width="4" height="20" fill="#C8102E"/><rect y="8" width="30" height="4" fill="#C8102E"/></svg>'
 };
