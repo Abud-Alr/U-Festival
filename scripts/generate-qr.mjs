@@ -6,8 +6,8 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const outputPath = path.resolve(__dirname, '..', 'public', 'qr-code.svg');
 
-// The URL the QR code points to — the qr-landing page
-const appUrl = 'https://u-festival.nl/qr-landing.html';
+// The URL the QR code points to
+const appUrl = 'https://u-festival.onrender.com';
 
 async function generate() {
   const svg = await QRCode.toString(appUrl, {
